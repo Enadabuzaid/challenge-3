@@ -1,0 +1,22 @@
+{
+  "name": "ch--4",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss dist/css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enadabuzaid/challenge-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enadabuzaid/challenge-3/issues"
+  },
+  "homepage": "https://github.com/Enadabuzaid/challenge-3#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
