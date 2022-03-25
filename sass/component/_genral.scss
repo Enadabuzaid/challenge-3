@@ -22,3 +22,28 @@ body{
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+
+.d-flex{
+  display: flex;
+}
+
+.btn{
+  padding: .8rem 4rem;
+  width: 20rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary{
+  background-color: $bright-blue;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: $gratish-blue;
+}
+
+
+%flex-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
