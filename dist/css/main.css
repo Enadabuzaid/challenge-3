@@ -32,13 +32,21 @@ body {
   background-color: #3065f8;
   font-weight: 700;
   font-size: 1.4rem;
-  color: #f6f6fe; }
+  color: #f6f6fe;
+  transition: all .3s ease;
+  box-shadow: 1px 1.2px 3px #3065f8; }
+  .btn--primary:hover {
+    background-color: #0737bb; }
 
 header {
   justify-content: space-between;
   align-items: center;
   padding-top: 3rem;
   font-family: "Raleway", sans-serif; }
+  header .logo {
+    width: 9rem; }
+    header .logo img {
+      width: 100%; }
   header nav ul {
     list-style: none; }
     header nav ul li {
@@ -80,3 +88,79 @@ header {
       width: 32rem; }
     .hero-section .text-container button {
       margin-left: 1.2rem; }
+
+.full-section {
+  background-image: url("../../images/bg-curve-desktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 12rem; }
+
+.main-section {
+  padding: 12rem 0; }
+  .main-section .text-width {
+    width: 60%; }
+  .main-section .img-container {
+    width: 40%; }
+  .main-section img {
+    width: 100%; }
+
+.text-card-container {
+  width: 60%; }
+
+.text h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #070439;
+  font-size: 3.6rem;
+  padding: 1rem 0;
+  margin-bottom: 3rem; }
+
+.text p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: #585989; }
+
+.link {
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem; }
+  .link a {
+    font-size: 1.4rem;
+    color: #3c9f8f; }
+    .link a:hover {
+      color: #20554c; }
+  .link .arrow-photo {
+    width: 2rem; }
+
+.card {
+  width: 40%;
+  background-color: white;
+  padding: 2.8rem;
+  box-shadow: 2px 4px 16px #bfbfbf; }
+  .card .qout-photo {
+    width: 1.6rem;
+    margin-bottom: 1.2rem; }
+  .card p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #333; }
+  .card .person {
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem; }
+
+.person-txt {
+  font-family: "Raleway", sans-serif; }
+  .person-txt p {
+    font-weight: 700;
+    font-size: 1.4rem; }
+  .person-txt small {
+    font-size: 1.1rem;
+    color: #bfbfbf; }
+
+.person-photo {
+  width: 3rem; }
+  .person-photo img {
+    border-radius: 50%; }

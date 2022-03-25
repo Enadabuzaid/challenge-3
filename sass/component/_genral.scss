@@ -39,6 +39,12 @@ body{
   font-weight: 700;
   font-size: 1.4rem;
   color: $gratish-blue;
+  transition: all .3s ease;
+  box-shadow: 1px 1.2px 3px $bright-blue;
+
+  &:hover{
+    background-color: darken($bright-blue, 20);
+  }
 }
 
 
