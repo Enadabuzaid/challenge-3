@@ -256,3 +256,62 @@ footer {
       filter: invert(100%) sepia(0%) saturate(600) hue-rotate(280deg) brightness(0%) contrast(200%); }
     footer .social-photo img {
       width: 100%; }
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 56.25%; } }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%; }
+  .hero-section {
+    flex-direction: column;
+    gap: 10rem; }
+    .hero-section .text-container {
+      width: unset; }
+    .hero-section .img-container {
+      width: unset; }
+  .full-section {
+    background-image: url(../../images/bg-curve-mobile.svg); }
+  .main-section {
+    flex-direction: column;
+    gap: 10rem; }
+    .main-section .text-card-container {
+      width: unset; }
+    .main-section .img-container {
+      width: unset; }
+  .text-form-container {
+    flex-direction: column;
+    gap: 10rem;
+    text-align: center; }
+  footer .content-footer {
+    align-items: start;
+    flex-direction: column;
+    gap: 4rem; }
+  footer .social-col {
+    align-self: center; } }
+
+@media (max-width: 425px) {
+  .hero-section .text-container h1 {
+    font-size: 3.8rem;
+    line-height: 1.2; }
+  .hero-section .text-container p {
+    max-width: unset;
+    font-size: 2rem; }
+  .hero-section .text-container form {
+    display: block; }
+  .hero-section .text-container button {
+    margin-left: unset;
+    margin-top: 1.6rem; }
+  .main-section .text-width {
+    width: unset; }
+  .text h2 {
+    font-size: 2.8rem; }
+  .text p {
+    font-size: 1.8rem; }
+  .card {
+    width: 60%; }
+  .form-contact input {
+    width: 40rem; }
+  footer .logo-col {
+    width: unset; } }
