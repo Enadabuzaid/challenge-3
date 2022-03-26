@@ -245,3 +245,99 @@ header{
       padding: 1.8rem;
     }
   }
+
+  footer{
+    background-color: $dark-blue;
+    color: #fdfdfd;
+    padding: 6rem 0;
+
+  .logo-col{
+    width: 25%;
+  }
+
+  .links-col{
+    width: 25%;
+  }
+
+  .pages-col{
+    width: 25%;
+  }
+
+  .social-col{
+    width: 25%;
+    gap: 1rem;
+  }
+
+  .content-footer{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-logo{
+    filter: invert(100%) sepia(0%) saturate(600) hue-rotate(280deg) brightness(150%) contrast(200%);
+  }
+
+  .logo-photo{
+      width: 14rem;
+      img{
+        width: 100%;
+      }
+    }
+
+
+    .logo-row{
+        margin-top: 2rem;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+        transition: all .3s ease;
+
+        &:hover{
+          margin-left: 1rem;
+          color: lighten(#fdfdfd, 20);
+        }
+      }
+
+    ul{
+      list-style: none;
+
+      li{
+        margin-top: 1.6rem;
+      }
+
+      a{
+        color: #fdfdfd;
+        text-decoration: none;
+        font-size: 1.4rem;
+        transition: all 0.3s ease;
+
+        &:hover{
+          margin-left: .8rem;
+          color: lighten(#fdfdfd, 50);
+
+        }
+      }
+    }
+
+    .social-photo{
+      width: 3rem;
+      padding: .5rem;
+      border: 1px solid #fdfdfd;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all .5s ease;
+
+      &:hover{
+        background: #fdfdfd;
+      }
+
+      &:hover img{
+          filter: invert(100%) sepia(0%) saturate(600) hue-rotate(280deg) brightness(0%) contrast(200%);
+      }
+
+      img{
+        width: 100%;
+      }
+    }
+
+  }
